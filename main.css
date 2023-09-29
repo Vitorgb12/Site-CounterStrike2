@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'CS';
+    src: url(cs_regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    font-family: 'CS', cursive;
+    font-weight: normal;
+    border: 8px;
+    background-color: rgb(187, 187, 122);
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#trailer .container {
+    padding: 1cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title h2,
+h3,
+h4 {
+    font-family: 'CS', cursive;
+    font-weight: normal;
+    border: 8px;
+    font-size: 40px;
+}
+
+#title .container {
+    padding: 1cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(170, 170, 161);
+}
+
+#trailer {
+    background-image: url(./imagens/novoFundo.jpg);
+}
+
+#news .container {
+    padding: 1cm;
+    background-color: gray;
+}
+
+.news-image {
+    width: 700px;
+    height: 400px;
+    margin-right: 32px;
+}
+
+#news .container {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./imagens/laranjacopia.jpeg);
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.botao {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#rodape .container p {
+    font-size: 15px;
+
+}
+
+#rodape .container {
+    background-color: rgb(187, 187, 122);
+    display: flex;
+    justify-content: center;
+}
+
+
+#rodape .container img {
+    margin-right: 10px;
+    height: 20px;
+    padding: 2px;
+}
+
+#preRegister .container {
+    padding: 1cm;
+}
+
+form input,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: 'CS', cursive;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#preRegister .container {
+    display: flex;
+    justify-content: center;
+}
+
+#preRegister .container p {
+    font-family: 'CS', cursive;
+    font-weight: normal;
+    border: 8px;
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+#preRegister {
+    background-image: url(./imagens/cs-2copia.jpg);
+}
